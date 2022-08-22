@@ -1,0 +1,13 @@
+aws intsance metadata in json and cli 
+
+curl http://169.254.169.254/latest/meta-data/ami-id
+
+
+#json format:
+{
+  "HttpEndpoint" : String,
+  "HttpProtocolIpv6" : String,
+  "HttpPutResponseHopLimit" : Integer,
+  "HttpTokens" : String,
+  "InstanceMetadataTags" : String
+}
